@@ -35,6 +35,7 @@ function renderQuestion(){
     pos = 0;
     correct = 0;
     // stops rest of renderQuestion function running when test is completed
+    
     return false;
   }
   get("test_status").innerHTML = "Question "+(pos+1)+" of "+questions.length;
@@ -64,24 +65,26 @@ function checkAnswer(){
   } else {
   	switch(pos) {
   		case 0:
-    		alert("Sorry! That's incorrect! \n The correct answer is B! \n ")
+    		alert("Sorry! That's incorrect! \n The correct answer is B! \n Your credit score factors in your payment history, the record of if you’ve made your payments on time and details about how late each late payment was, and your utilization ratio, which is how the amount you owe compares to the amount of credit you’re extended. It also factors in new credit, if you have applied for new loans in a short period of time the risk could be higher for lenders, length of use, to measure consistency, and the types of credit you have.")
     		break;
   		case 1:
-    		// code block
+    		alert("Sorry! That's incorrect! \n The correct  answer is C! \n")
     		break;
     	case 2:
+    		alert("Sorry! That's incorrect! \n The correct  answer is A! \n")
     		break;
     	case 3:
+    		alert("Sorry! That's incorrect! \n The correct  answer is C! \n")
     		break;
     	case 4:
+    		alert("Sorry! That's incorrect! \n The correct  answer is A! \n")
     		break;
     	case 5:
+    		alert("Sorry! That's incorrect! \n The correct  answer is A! \n")
     		break;
     	case 6:
+    		alert("Sorry! That's incorrect! \n The correct  answer is B! \n")
     		break;
-
-  default:
-    // code block
 }
   }
   // changes position of which character user is on
