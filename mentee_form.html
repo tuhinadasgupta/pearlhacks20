@@ -1,15 +1,29 @@
-<h1>Sign Up To Be a Mentee!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<div class="container-contact100">
+<div class="wrap-contact100">
 
-<form id = "menteeform" action="http://localhost:8080/mentors" method="post">
+<form id = "menteeform" action="http://localhost:8080/mentors" method="post" class="contact100-form validate-form">
+  <span class="contact100-form-title">Sign Up To Be a Mentee!
+  </span>
+<label class="label-input100" for="first-name">Your Name *</label>
+				<div class="wrap-input100 rs1 validate-input">
+					<input id="first-name" class="input100" type="text" name="first-name" placeholder="First name">
+					<span class="focus-input100"></span>
+				</div>
+				<div class="wrap-input100 rs1 validate-input">
+					<input class="input100" type="text" name="last-name" placeholder="Last name">
+					<span class="focus-input100"></span>
+				</div>
 
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name"><br>
-
-  <label for="phone">Phone Number:</label><br>
-  <input type="text" id="num" name="num"><br>
-
-  <label for="email">Email:</label><br>
-  <input type="text" id="email" name="email"><br>
+				<label class="label-input100" for="email">Email Address *</label>
+				<div class="wrap-input100 validate-input">
+					<input id="email" class="input100" type="text" name="email" placeholder="Eg. example@email.com">
+					<span class="focus-input100"></span>
+				</div>
 
   <p>What would you like to learn about?</p>
   <input type="radio" id="homeloans" name="exp" value="homeloans">
@@ -36,3 +50,6 @@
   <input type="submit" value="Submit">
 
 </form>
+ 
+  </div>
+  </div>
