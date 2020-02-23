@@ -22,20 +22,21 @@ var questions = [
   ["What's the retirement plan that you get through your employer called?", "401(k)", "Roth IRA", "Social security", "A"],
   ["What debts cannot be discharged by bankruptcy?", "Payday loans, cash advances, short-term installment loans", "Student loans, child support, alimony, court judgments", "Any debt can be discharged. Bankruptcy is a get out of jail free card.", "B"]
   ];
-// this get function is short for the getElementById function	
+// this get function is short for the getElementById function
 function get(x){
   return document.getElementById(x);
 }
 function renderQuestion(){
   test = get("test");
   if(pos >= questions.length){
-    test.innerHTML = "<h2>You got "+correct+" of "+questions.length+" questions correct</h2>";
+        test.innerHTML = "<h2>You got "+correct+" of "+questions.length+" questions correct</h2> <h2>Here are some resources that you could use to improve your score: </h2> <ul><li><a href=\"https://studentaid.gov\">FAFSA</a></li><li><a href=\"https://annualcreditreport.com/index.action\">Annual Credit Report</a></li><li><a href=\"https://irs.gov\">IRS</a></li><li><a href=\"https://wisebread.com\">Wisebread</a></li><li><a href=\"https://bankingsense.com\">BankingSense</a></li><li><a href=\"https://mymoney.gov/Pages/default.aspx\">MyMoney</a></li></ul>";
+    get("test_status").innerHTML = "Test completed";
     get("test_status").innerHTML = "Test completed";
     // resets the variable to allow users to restart the test
     pos = 0;
     correct = 0;
     // stops rest of renderQuestion function running when test is completed
-    
+
     return false;
   }
   get("test_status").innerHTML = "Question "+(pos+1)+" of "+questions.length;
