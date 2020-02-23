@@ -35,6 +35,7 @@ app.post("/mentors", (req, res) => {
             res.send(json.mentors[mentor]);
             json.mentors.splice(mentor, 1);
             matchFound = true;
+            fs.writeFileSync("./users.json", JSON.stringify(json, null, 2));
             break;
         }
     }
@@ -54,6 +55,7 @@ app.post("/mentees", (req, res) => {
             res.send(json.mentee[mentee]);
             json.mentees.splice(mentee, 1);
             matchFound = true;
+            fs.writeFileSync("./users.json", JSON.stringify(json, null, 2));
             break;
         }
     }
