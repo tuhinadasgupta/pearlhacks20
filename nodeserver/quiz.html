@@ -29,7 +29,7 @@ function get(x){
 function renderQuestion(){
   test = get("test");
   if(pos >= questions.length){
-        test.innerHTML = "<h2>You got "+correct+" of "+questions.length+" questions correct</h2> <h2>Here are some resources that you could use to improve your score: </h2> <ul><li><a href=\"https://studentaid.gov\">FAFSA</a></li><li><a href=\"https://annualcreditreport.com/index.action\">Annual Credit Report</a></li><li><a href=\"https://irs.gov\">IRS</a></li><li><a href=\"https://wisebread.com\">Wisebread</a></li><li><a href=\"https://bankingsense.com\">BankingSense</a></li><li><a href=\"https://mymoney.gov/Pages/default.aspx\">MyMoney</a></li></ul>";
+        test.innerHTML = "<h2>You got "+correct+" of "+questions.length+" questions correct</h2> <h2>Here are some resources that you could use to improve your score: </h2> <ul><li><a href=\"https://studentaid.gov\">FAFSA</a></li><li><a href=\"https://annualcreditreport.com/index.action\">Annual Credit Report</a></li><li><a href=\"https://irs.gov\">IRS</a></li><li><a href=\"https://wisebread.com\">Wisebread</a></li><li><a href=\"https://bankingsense.com\">BankingSense</a></li><li><a href=\"https://mymoney.gov/Pages/default.aspx\">MyMoney</a></li></ul><button> <a href=\"ph20.html\"> Return Home </button>";
     get("test_status").innerHTML = "Test completed";
     get("test_status").innerHTML = "Test completed";
     // resets the variable to allow users to restart the test
@@ -69,22 +69,22 @@ function checkAnswer(){
     		alert("Sorry! That's incorrect! \n The correct answer is B! \n Your credit score factors in your payment history, the record of if you’ve made your payments on time and details about how late each late payment was, and your utilization ratio, which is how the amount you owe compares to the amount of credit you’re extended. It also factors in new credit, if you have applied for new loans in a short period of time the risk could be higher for lenders, length of use, to measure consistency, and the types of credit you have.")
     		break;
   		case 1:
-    		alert("Sorry! That's incorrect! \n The correct  answer is C! \n")
+    		alert("Sorry! That's incorrect! \n The correct  answer is C! \n Most lenders want to see a debt-to-income ratio smaller than 36%, and it shouldn’t be any more than 41%. They also don’t want to see more than 28% of that going towards your mortgage. ")
     		break;
     	case 2:
-    		alert("Sorry! That's incorrect! \n The correct  answer is A! \n")
+    		alert("Sorry! That's incorrect! \n The correct  answer is A! \n APR is the Annual Percentage Rate, or an annualized representation of your interest rate. ")
     		break;
     	case 3:
-    		alert("Sorry! That's incorrect! \n The correct  answer is C! \n")
+    		alert("Sorry! That's incorrect! \n The correct  answer is C! \n A downpayment of 10%, or 20,000$ on an average home could let you become a homeowner soon, although the rates vary by lender and having more money saved up is not a bad idea.")
     		break;
     	case 4:
-    		alert("Sorry! That's incorrect! \n The correct  answer is A! \n")
+    		alert("Sorry! That's incorrect! \n The correct  answer is A! \n Net worth is calculated by weighing your assets minus your liabilities, or what you own minus what you owe. There are many tools online that will calculate your net worth for you.")
     		break;
     	case 5:
-    		alert("Sorry! That's incorrect! \n The correct  answer is A! \n")
+    		alert("Sorry! That's incorrect! \n The correct  answer is A! \n Your 401k is a retirement savings plan that allows you to divert part of your salary into saving for your future.")
     		break;
     	case 6:
-    		alert("Sorry! That's incorrect! \n The correct  answer is B! \n")
+    		alert("Sorry! That's incorrect! \n The correct  answer is B! \n When filing for Chapter 7 bankruptcy, most debts are wiped out, but some are “nondischargeable” meaning they cannot be wiped out, including student loans, child support, alimony, and court judgements as detailed by the US Bankruptcy code.")
     		break;
 }
   }

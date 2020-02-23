@@ -1,0 +1,30 @@
+{
+  "mentors": [
+    {
+      "name": "Shweta",
+      "email": "shweta@gmail.com",
+      "phone": "7328291788",
+      "interest": "homeloans"
+    },
+    {
+      "name": "Rachna",
+      "email": "rachna@gmail.com",
+      "phone": "123456",
+      "interest": "creditscore"
+    }
+  ],
+  "mentees": [
+    {
+      "name": "Shweta",
+      "email": "shweta@gmail.com",
+      "phone": "7328291788",
+      "interest": "homeloans"
+    },
+    {
+      "name": "Rachna",
+      "email": "rachna@gmail.com",
+      "phone": "123456",
+      "interest": "creditscore"
+    }
+  ]
+}
