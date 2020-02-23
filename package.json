@@ -1,0 +1,22 @@
+{
+  "name": "pearlhacks20",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuhinadasgupta/pearlhacks20.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuhinadasgupta/pearlhacks20/issues"
+  },
+  "homepage": "https://github.com/tuhinadasgupta/pearlhacks20#readme",
+  "dependencies": {
+    "node-bandwidth": "^3.0.3"
+  }
+}
